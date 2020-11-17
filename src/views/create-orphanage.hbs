@@ -43,7 +43,7 @@
     <main class="animate-appear width-sidebar">
       <form action="save-orphanage" method="post" onsubmit="validate(event)">
         <fieldset>
-          <legend>Dados</legend>
+          <legend>Dados do PET</legend>
 
           <div class="map-container">
             <div id="mapid"></div>
@@ -56,7 +56,7 @@
             </footer>
           </div>
           <div class="input-block">
-            <label for="name">Nome</label>
+            <label for="name">Nome do PET</label>
             <input id="name" name="name" required />
           </div>
 
@@ -67,7 +67,7 @@
           </div>
 
           <div class="input-block">
-            <label for="Whatsapp">Número de Whatsapp</label>
+            <label for="Whatsapp">Número de Whatsapp - ERRO - MUDAR PARA SOBRE O DOADOR</label>
             <input id="whatsapp" name="whatsapp" required />
           </div>
 
@@ -88,19 +88,19 @@
         </fieldset>
 
         <fieldset>
-          <legend>Visitação</legend>
+          <legend>Sobre o Doador</legend>
           <div class="input-block">
-            <label for="instructions">Instruções</label>
+            <label for="instructions">Nós diga seu nome :), e um pouco sobre você :D</label>
             <textarea id="instructions" name="instructions" required></textarea>
           </div>
 
           <div class="input-block">
-            <label for="opening_hours">Horário das visitas</label>
+            <label for="opening_hours">Horário disponível para doação</label>
             <input id="opening_hours" name="opening_hours" required />
           </div>
 
           <div class="input-block">
-            <label for="opening_on_weekends">Atende fim de semana?</label>
+            <label for="opening_on_weekends">Aceita Ligação?</label>
             <input type="hidden" id="open_on_weekends" name="open_on_weekends" value="1" required />
 
             <div class="button-select">
