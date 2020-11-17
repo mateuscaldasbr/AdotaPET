@@ -7,7 +7,7 @@
 
 aside {
   width: clamp(24rem, 25vw, 44rem);
-  background: linear-gradient(329.54deg, #15b6d6 0%, #15d6d6 100%);
+  background: linear-gradient(329.54deg, #edbbbb 0%, #aabbcc 100%);
   padding: clamp(3rem, 5vw, 8rem);
 
   display: flex;
@@ -49,7 +49,7 @@ a.create-orphanage {
 
   width: 6.4rem;
   height: 6.4rem;
-  background: #15c3d6;
+  background: #aaaaaa;
   border: 0;
   border-radius: 2rem;
 
