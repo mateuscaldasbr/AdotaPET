@@ -2,7 +2,8 @@
 AdotaPET
 
 Ficha Técnica
-Equipe Responsável pela Elaboração
+
+Responsável pela Elaboração
 
 Paulo Mateus de Lima Caldas
 
